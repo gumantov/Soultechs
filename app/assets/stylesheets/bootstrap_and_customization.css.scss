@@ -1,14 +1,28 @@
-$navbar-default-bg: black;
+$navbar-default-bg: #191919;
 $navbar-default-link-color: white;
 $navbar-default-link-color: #ecf0f1;
-$jumbotron-bg: #ecf0f1;
+$jumbotron-bg: rgb(241,240,237);
 
 @import 'bootstrap';
+
+.homeparagraph {
+	
+	color: black;
+	position: absolute;
+	left: 230px;
+	top: 280px;
+}
 
 .right {
      text-align: right;
 }
 
 .about {
-	background-color: #FCFCFC;
+	background-color: #000000;
 }
+
+.logonavbar {
+	position: absolute;
+	top: 12px;
+}
+
